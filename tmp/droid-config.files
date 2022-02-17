@@ -52,4 +52,6 @@
 /var/lib/environment/nemo/60-multimedia.conf
 /var/lib/environment/ofono/noplugin.conf
 /var/lib/environment/compositor/droid-hal-device.conf
+/usr/bin/droid/droid-hal-early-init.sh
+/bin/parse-android-dynparts
 /usr/share/ssu/features.d/adaptation-community.ini

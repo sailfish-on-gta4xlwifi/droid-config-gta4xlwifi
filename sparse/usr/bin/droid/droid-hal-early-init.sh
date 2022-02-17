@@ -12,7 +12,7 @@ dmesg_info() {
 }
  
 dmesg_info "Map dynamic partitions"
-dmsetup create --concise "$(/usr/bin/parse-android-dynparts $super_part)"
+dmsetup create --concise "$(/bin/parse-android-dynparts $super_part)"
  
 dmesg_info "Dynamic partitions: $(ls /dev/mapper/dynpart-*)"
  

@@ -78,9 +78,6 @@ Requires: geoclue-provider-hybris
 #Requires: nfcd-binder-plugin
 #Requires: nfcd-pn54x-plugin
 
-# Mount super partition
-Requires: parse-android-dynparts
-
 %description -n patterns-sailfish-device-adaptation-gta4xlwifi
 Pattern with packages for gta4xlwifi HW Adaptation
 
