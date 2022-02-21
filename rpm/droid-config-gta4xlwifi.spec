@@ -17,6 +17,10 @@
 # pixel_ratio = 4.5/DiagonalDisplaySizeInches * HorizontalDisplayResolution/540
 # Other screen sizes and ratios will require more trial-and-error.
 %define pixel_ratio 1.0
+%define android_version_major 10
+
+Provides: ofono-configs
+Obsoletes: ofono-configs-mer
 
 %include droid-configs-device/droid-configs.inc
 %include patterns/patterns-sailfish-device-adaptation-gta4xlwifi.inc
