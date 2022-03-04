@@ -4,10 +4,10 @@
 /etc/pulse/x-maemo-route.table
 /etc/pulse/x-maemo-sink-volume.table
 /etc/pulse/x-maemo-stream-restore.table
-/etc/pulse/xpolicy.conf
-/etc/pulse/xpolicy.conf.d/earpiece.conf
 /etc/pulse/xpolicy.conf.d/fmradio.conf.disabled
 /etc/pulse/xpolicy.conf.d/usbaudio.conf.disabled
+/etc/pulse/xpolicy.conf.d/earpiece.conf
+/etc/pulse/xpolicy.conf
 /etc/sysconfig/pulseaudio
 /var/lib/nemo-pulseaudio-parameters/algs/mainvolume/bta2dp
 /var/lib/nemo-pulseaudio-parameters/algs/mainvolume/btmono
